@@ -1,0 +1,54 @@
+id: 752350c7-bd40-4ff5-b856-fd391f9512a9
+name: Test
+project_id: 14baffb7-b053-439e-a6d5-405b59431ee6
+global_imports: []
+is_public: false
+workspace_id: null
+layers:
+- blocks:
+  - auto_size: false
+    canvas_id: 752350c7-bd40-4ff5-b856-fd391f9512a9
+    cpu: 2048
+    description: ''
+    height: 368
+    id: b6bf0949-477e-4bd5-af9b-45679165a523
+    is_fargate: true
+    layer_id: 9334275b-adc8-4129-9b10-5929cca83de1
+    memory: 16384
+    name: ''
+    parent_id: null
+    properties: {}
+    status: 3
+    type: 1
+    variables: null
+    width: 550
+    x: 280
+    y: 246
+  - auto_size: false
+    canvas_id: 752350c7-bd40-4ff5-b856-fd391f9512a9
+    cpu: null
+    description: ''
+    height: 500
+    id: a6346f84-e16c-4771-825e-b044f5b400e5
+    is_fargate: false
+    layer_id: 9334275b-adc8-4129-9b10-5929cca83de1
+    memory: null
+    name: ''
+    parent_id: null
+    properties: {}
+    status: 3
+    type: 1
+    variables: null
+    width: 800
+    x: 1206
+    y: 187
+  canvas_id: 752350c7-bd40-4ff5-b856-fd391f9512a9
+  edges:
+  - canvas_id: 752350c7-bd40-4ff5-b856-fd391f9512a9
+    id: 06a377dd-2a95-4e8d-b43c-77da742f4d07
+    layer_id: 9334275b-adc8-4129-9b10-5929cca83de1
+    source: b6bf0949-477e-4bd5-af9b-45679165a523
+    target: a6346f84-e16c-4771-825e-b044f5b400e5
+  id: 9334275b-adc8-4129-9b10-5929cca83de1
+  name: Development
+  type: 1
