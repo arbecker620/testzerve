@@ -8,6 +8,42 @@ layers:
 - blocks:
   - auto_size: false
     canvas_id: 752350c7-bd40-4ff5-b856-fd391f9512a9
+    cpu: null
+    description: ''
+    height: 500
+    id: 7799e880-0607-44e6-9693-8bf50a8675bc
+    is_fargate: false
+    layer_id: 9334275b-adc8-4129-9b10-5929cca83de1
+    memory: null
+    name: ''
+    parent_id: null
+    properties: {}
+    status: 1
+    type: 1
+    variables: null
+    width: 800
+    x: 2127
+    y: 1410
+  - auto_size: false
+    canvas_id: 752350c7-bd40-4ff5-b856-fd391f9512a9
+    cpu: 1024
+    description: ''
+    height: 701
+    id: 263d6fbd-693b-45ee-9c84-e69f219e39ee
+    is_fargate: true
+    layer_id: 9334275b-adc8-4129-9b10-5929cca83de1
+    memory: 8096
+    name: Train
+    parent_id: null
+    properties: {}
+    status: 3
+    type: 1
+    variables: null
+    width: 1286
+    x: 262
+    y: 1382
+  - auto_size: false
+    canvas_id: 752350c7-bd40-4ff5-b856-fd391f9512a9
     cpu: 2048
     description: ''
     height: 368
@@ -28,7 +64,7 @@ layers:
     canvas_id: 752350c7-bd40-4ff5-b856-fd391f9512a9
     cpu: null
     description: ''
-    height: 500
+    height: 604
     id: a6346f84-e16c-4771-825e-b044f5b400e5
     is_fargate: false
     layer_id: 9334275b-adc8-4129-9b10-5929cca83de1
@@ -36,14 +72,19 @@ layers:
     name: Extract_info_dict
     parent_id: null
     properties: {}
-    status: 1
+    status: 3
     type: 1
     variables: null
-    width: 800
+    width: 1406
     x: 1206
     y: 159
   canvas_id: 752350c7-bd40-4ff5-b856-fd391f9512a9
   edges:
+  - canvas_id: 752350c7-bd40-4ff5-b856-fd391f9512a9
+    id: 17d69289-0b56-4bb3-8ade-42772cc7baa1
+    layer_id: 9334275b-adc8-4129-9b10-5929cca83de1
+    source: 263d6fbd-693b-45ee-9c84-e69f219e39ee
+    target: 7799e880-0607-44e6-9693-8bf50a8675bc
   - canvas_id: 752350c7-bd40-4ff5-b856-fd391f9512a9
     id: 06a377dd-2a95-4e8d-b43c-77da742f4d07
     layer_id: 9334275b-adc8-4129-9b10-5929cca83de1
